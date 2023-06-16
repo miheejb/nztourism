@@ -1,0 +1,38 @@
+.navbar{
+    height: 50px;
+    background-color: dodgerblue;
+    display:flex;
+    justify-content:center;
+}
+
+.navContainer{
+    width: 100%;
+    max-width: 1024px;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-between
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:white;
+    cursor:pointer;
+    text-decoration: none;
+
+}
+.logo::aftervisit{
+    color:white;
+}
+
+.navButton{
+    margin-left: 20px;
+    border:none;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color:white;
+    color:dodgerblue;
+}
